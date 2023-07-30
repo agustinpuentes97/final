@@ -1,0 +1,195 @@
+  body {
+    font-family: 'Space Mono', monospace;
+    color: #232323;
+    padding-right: 0.5em;
+  }
+
+  /* Comienzo de estilos header y footer */
+  header,
+  footer {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+header{
+  margin-bottom: 1em;
+}
+  .footer {
+    padding: 1em;
+    margin-top: 2em;
+  }
+
+  .navbar-brand {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-item {
+    padding: 0px 1em;
+    border-right: #000 solid 1px;
+  }
+
+  a.nav-link {
+    color: black !important;
+  }
+
+  a.nav-link:hover {
+    color: lightgray !important;
+  }
+
+  .navbar-toggler {
+    border-radius: 0;
+    background-color: black;
+  }
+
+  /* Fin de Estilos header y footer */
+
+  /* Comienzo de estilos de section de artistas */
+  .img-responsive {
+    margin-bottom: 1em;
+    width: 100%;
+  }
+.index-neoexpresionismo, .artistas-referentes{
+  margin: 3em auto;
+}
+  .index-titulo{
+    background: #000;
+    color:white;
+    margin-top: 1em;
+  }
+
+  .artista, .pintura-artista {
+    background: white;
+    border: 1px black solid;
+    max-width: 300px;
+    margin: 1em auto;
+    filter: grayscale(100%);
+    padding: 0px;
+  }
+
+  .artista:hover, .pintura-artista:hover{
+    background-color: black;
+    color: white;
+    filter: grayscale(0%);
+    font-weight: bold;
+  }
+
+  .btn-ver {
+    background: white;
+    border: 1px black solid;
+    margin-bottom: 1em;
+    color: black;
+  }
+
+  .btn-ver a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .btn-ver a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  .btn-ver:hover {
+    background: black;
+    border: 1px white solid;
+  }
+
+
+  /* Fin de estilos de section de artistas */
+  /* Comienzo de estilos de section de Formulario */
+  .form-titulo {
+    font-size: 3em;
+  }
+.container-form{
+  margin: 4em auto;
+}
+
+  .form-group,
+  .submit {
+    margin-top: 0.5em;
+  }
+
+  .submit:hover {
+    background: #000;
+    color: white;
+  }
+  /* Fin de estilos de section de Formulario */
+
+  /*Comienzo de estilos de páginas de artistas*/
+  .artista-col{
+    height: 450px;
+    overflow-y: scroll;
+    margin-top: 1em;
+  }
+  .p-artista{
+    font-family:'Playfair Display', serif;
+  }
+
+  .h1-artista{
+    background: #000;
+    color: white;
+  }
+  /*Fin de estilos de páginas de artistas*/
+
+
+  /*Artistas*/
+  .artistas-referentes{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .a-pintura{
+    text-decoration: none;
+    color: black;
+  }
+
+  .a-pintura:hover{
+    color: white;
+  }
+
+
+  .obra-artista{
+    min-height: 600px;
+    justify-content: center;
+    margin: 2em auto;
+    border: 1px solid black;
+  }
+
+
+
+  .link-artista{
+    text-decoration: none;
+    color: black;
+  }
+
+  .link-artista:hover{
+    text-decoration: none;
+    color: #cccccc;
+  }
+
+
+  @media (max-width: 768px) {
+    .obra-artista{
+      min-height: 200px;
+      text-align: center;
+      padding: 2em 0px;
+    }
+  }
+
+  .h2-obra{
+    background: black;
+    color: white;
+    margin-top: 0.5em;  
+  }
+
+  .carousel-control-prev, .carousel-control-next{
+    height: 200px;
+    margin: auto 0px;
+  }
+
+  .carousel-control-prev:hover, .carousel-control-next:hover{
+    background-color: #0000001f;
+  }
